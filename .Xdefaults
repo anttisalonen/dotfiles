@@ -1,0 +1,7 @@
+XTerm*background:black
+XTerm*foreground:white
+xterm*faceName:            DejaVu Sans Mono:pixelsize=12
+UXTerm*background:black
+UXTerm*foreground:white
+Uxterm*faceName:            DejaVu Sans Mono:pixelsize=12
+
