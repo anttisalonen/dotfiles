@@ -1,7 +1,19 @@
+xterm*background:black
+xterm*foreground:white
 XTerm*background:black
 XTerm*foreground:white
 xterm*faceName:            DejaVu Sans Mono:pixelsize=12
+uxterm*background:black
+uxterm*foreground:white
 UXTerm*background:black
 UXTerm*foreground:white
 Uxterm*faceName:            DejaVu Sans Mono:pixelsize=12
+
+XTerm*charClass: 33-47:48,58-64:48,91-94:48
+UXTerm*charClass: 33-47:48,58-64:48,91-94:48
+
+xterm*scrollTtyOutput:true
+
+xterm*scrollKey:true
+xterm*saveLines:50000
 

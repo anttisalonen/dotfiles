@@ -1,13 +1,25 @@
-http://rss.slashdot.org/Slashdot/slashdot "Technologie"
-http://www.heise.de/newsticker/heise-atom.xml "Technologie"
-http://www.pro-linux.de/backend/pro-linux.rdf "Technologie"
-http://lambda-the-ultimate.org/rss.xml
-http://syndication.thedailywtf.com/TheDailyWtf
-http://www.mbnet.fi/net.nyt/rss.aspx "Technologie"
 http://www.hs.fi/uutiset/rss/ "Nachrichten"
 http://www.tagesschau.de/xml/rss2/ "Nachrichten"
+http://www.npr.org/rss/rss.php?id=1001
 http://www.morgenweb.de/rss/ticker_mm.xml "Nachrichten"
+http://www.metro.us/newyork/local/rss
+http://abclocal.go.com/wabc/xml?id=7095532
+http://www.nurmijarvenuutiset.fi/rss/feed/www.nurmijarvenuutiset.fi
 http://www.autosport.com/rss/f1news.xml "Formel 1"
-http://www.ft.com/rss/home/europe "Wirtschaft"
-http://www.ftd.de/rss2/schnellleser
-http://sequence.complete.org/node/feed
+http://www.heise.de/newsticker/heise-atom.xml "Technologie"
+http://www.pro-linux.de/backend/pro-linux.rdf "Technologie"
+#http://lambda-the-ultimate.org/rss.xml
+http://syndication.thedailywtf.com/TheDailyWtf
+http://rss.gmane.org/messages/complete/gmane.comp.lang.haskell.cafe
+http://planet.haskell.org/rss20.xml
+http://www.reddit.com/r/haskell/.rss
+http://stackoverflow.com/feeds/tag/haskell
+http://rss.slashdot.org/Slashdot/slashdot "Technologie"
+http://feeds.feedburner.com/fatvat
+http://reprog.wordpress.com/feed/
+#http://www.mbnet.fi/net.nyt/rss.aspx "Technologie"
+#http://feeds.feedburner.com/typepad/alleyinsider/silicon_alley_insider
+#http://www.ft.com/rss/home/europe "Wirtschaft"
+#http://www.ftd.de/rss2/schnellleser
+#http://sequence.complete.org/node/feed
+#http://news.ycombinator.com/rss

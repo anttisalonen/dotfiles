@@ -26,6 +26,7 @@ set incsearch		" Incremental search
 
 set history=1000
 set wildmode=list:longest
+"set noignorecase 
 set ignorecase 
 set smartcase
 
@@ -33,13 +34,15 @@ set smartcase
 " set smarttab
 " set autoindent
 " set smartindent
-set expandtab
-set tabstop=4
-set softtabstop=4
+
+" set expandtab
+set tabstop=8
+set softtabstop=8
+
 autocmd FileType *.c,*.cpp set cindent
 autocmd FileType *.py,*.hs set nocindent
-autocmd FileType c,cpp set expandtab
-autocmd FileType c,cpp set shiftwidth=4
+" autocmd FileType c,cpp set expandtab
+" autocmd FileType c,cpp set shiftwidth=4
 
 autocmd BufNewFile,BufRead *.py     set tabstop=4
 autocmd BufNewFile,BufRead *.py     set softtabstop=4
@@ -66,6 +69,11 @@ map <F8> :bn<CR>
 map <F9> :bd<CR>
 map <F10> :BufExplorer<CR>
 
+map <F1> <C-]>
+map <F2> <C-T>
+map <F3> :tp<CR>
+map <F4> :tn<CR>
+
 set hidden
 
 set ruler
@@ -84,7 +92,11 @@ set completeopt=menuone,menu,longest,preview
 
 set autoread
 
-" set noignorecase smartcase
 set smartcase
+set noignorecase
 
 set visualbell t_vb=
+
+set backspace=start,eol,indent
+
+set hlsearch

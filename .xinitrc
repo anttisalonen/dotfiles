@@ -1,4 +1,5 @@
-setxkbmap de-latin1-nodeadkeys
+#setxkbmap de-latin1-nodeadkeys
+setxkbmap "de(nodeadkeys)"
 setxkbmap -option terminate:ctrl_alt_bksp
 xset dpms 300 0 0
 xrandr --output VGA1 --auto
